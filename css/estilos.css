@@ -14,6 +14,10 @@
      height: 60vh;
      object-fit: cover;
  }
+
+ #no{
+    margin-top: 100px;
+}
  .seperador-linea {
      width: 500px;
      height: 1px;
@@ -217,4 +221,10 @@
 .titulo2 {
     color: #f47373;
     margin-bottom: 15px;
+}
+
+@media (max-width: 576px) {
+    #no{
+        margin-bottom: 60px;
+    }
 }
